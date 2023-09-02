@@ -21,7 +21,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxthq/studio',
     resolve('./app/module'),
-
   ],
 
   pinceau: {
@@ -56,6 +55,19 @@ export default defineNuxtConfig({
     // If this is loaded you can make it true, https://github.com/nuxt-modules/partytown
     partytown: false,
   },
+
+
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/primitives',
+        '/oku',
+      ],
+    }
+  },
+
   routeRules: {
     '/docs/primitives/overview/introduction': {
       redirect: {
