@@ -56,16 +56,10 @@ export default defineNuxtConfig({
     partytown: false,
   },
 
-
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: [
-        '/',
-        '/primitives',
-        '/oku',
-      ],
-    }
+    },
   },
 
   routeRules: {
