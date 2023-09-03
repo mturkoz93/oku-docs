@@ -24,7 +24,7 @@
     "@oku-ui/checkbox": "^0.4.0-alpha.2",
     "@oku-ui/collapsible": "^0.4.0-alpha.2",
     "@oku-ui/label": "^0.4.0-alpha.2",
-    "@oku-ui/popper": "^0.4.0-alpha.2",
+    "@oku-ui/popover": "^0.4.0-alpha.2",
     "@oku-ui/progress": "^0.4.0-alpha.2",
     "@oku-ui/radio-group": "^0.4.0-alpha.2",
     "@oku-ui/separator": "^0.4.0-alpha.2",
