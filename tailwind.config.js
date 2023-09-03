@@ -27,7 +27,7 @@ module.exports = {
   plugins: [
     iconsPlugin({
       // Select the icon collections you want to use
-      collections: getIconCollections(['fa-brands', 'heroicons', 'ph']),
+      collections: getIconCollections(['fa-brands', 'heroicons', 'ph', 'ic']),
     }),
     require('@tailwindcss/typography'),
   ],

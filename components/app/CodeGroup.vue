@@ -24,7 +24,7 @@ function changeTab(index: number) {
 <template>
   <div class="overflow-hidden">
     <div class=" rounded-lg componentBackground w-full relative items-center justify-center flex ">
-      <div class="w-full max-w-xl flex flex-col items-center justify-center p-20 ">
+      <div class="w-full max-w-xl flex flex-col items-center justify-center px-4 py-20">
         <slot name="preview" />
       </div>
     </div>
