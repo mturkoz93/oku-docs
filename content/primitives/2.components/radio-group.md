@@ -1,14 +1,14 @@
 ---
-title: Switch
+title: Radio Group
 description: A two-state button that can be either on or off.
 ---
 
-# Switch
+# Radio Group
 A two-state button that can be either on or off.
 
-::code-group{file="primitives/OkuSwitch"}
+::code-group{file="primitives/OkuRadioGroup"}
 #preview
- ::oku-switch
+ ::oku-radio-group
 ::
 
 ## Features

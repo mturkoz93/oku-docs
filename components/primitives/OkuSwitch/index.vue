@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { OkuSwitch,OkuSwitchThumb } from '@oku-ui/switch'
+import { OkuSwitch, OkuSwitchThumb } from '@oku-ui/switch'
 </script>
 
 <template>
@@ -10,8 +10,8 @@ import { OkuSwitch,OkuSwitchThumb } from '@oku-ui/switch'
           Airplane mode
         </label>
         <OkuSwitch
-          class="w-[42px] h-[25px] bg-blackA-950 rounded-full relative shadow-[0_2px_10px] dark:shadow-blackA-700 focus:shadow-[0_0_0_2px] focus:shadow-oku-600 data-[state=checked]:bg-black outline-none cursor-default"
           id="airplane-mode"
+          class="w-[42px] h-[25px] bg-blackA-950 rounded-full relative shadow-[0_2px_10px] dark:shadow-blackA-700 focus:shadow-[0_0_0_2px] focus:shadow-oku-600 data-[state=checked]:bg-black outline-none cursor-default"
         >
           <OkuSwitchThumb class="block w-[21px] h-[21px] bg-white rounded-full shadow-[0_2px_2px] shadow-blackA-600 transition-transform duration-100 translate-x-0.5 will-change-transform data-[state=checked]:translate-x-[19px]" />
         </OkuSwitch>

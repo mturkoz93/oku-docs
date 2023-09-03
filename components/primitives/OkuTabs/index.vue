@@ -1,28 +1,28 @@
 <script setup lang="ts">
-import {OkuTabContent,OkuTabList,OkuTabTrigger,OkuTabs } from '@oku-ui/tabs'
+import { OkuTabs, OkuTabsContent, OkuTabsList, OkuTabsTrigger } from '@oku-ui/tabs'
 </script>
 
 <template>
   <div class="flex items-center justify-center">
     <OkuTabs
       class="flex flex-col w-[300px] shadow-[0_2px_10px] shadow-grayA-900"
-      defaultValue="tab1"
+      default-value="tab1"
     >
-      <OkuTabList class="shrink-0 flex border-b border-mauve6" aria-label="Manage your account">
-        <OkuTabTrigger
+      <OkuTabsList class="shrink-0 flex border-b border-mauve6" aria-label="Manage your account">
+        <OkuTabsTrigger
           class="bg-white dark:bg-grayA-950 px-5 h-[45px] flex-1 flex items-center justify-center text-[15px] leading-none text-mauve11 select-none first:rounded-tl-md last:rounded-tr-md hover:text-violet11 data-[state=active]:text-violet11 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative data-[state=active]:focus:shadow-[0_0_0_2px] data-[state=active]:focus:shadow-black outline-none cursor-default"
           value="tab1"
         >
           Account
-        </OkuTabTrigger>
-        <OkuTabTrigger
+        </OkuTabsTrigger>
+        <OkuTabsTrigger
           class="bg-white dark:bg-grayA-950 px-5 h-[45px] flex-1 flex items-center justify-center text-[15px] leading-none text-mauve11 select-none first:rounded-tl-md last:rounded-tr-md hover:text-violet11 data-[state=active]:text-violet11 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative data-[state=active]:focus:shadow-[0_0_0_2px] data-[state=active]:focus:shadow-black outline-none cursor-default"
           value="tab2"
         >
           Password
-        </OkuTabTrigger>
-      </OkuTabList>
-      <OkuTabContent
+        </OkuTabsTrigger>
+      </OkuTabsList>
+      <OkuTabsContent
         class="grow p-5 bg-white dark:bg-grayA-950 rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
         value="tab1"
       >
@@ -34,28 +34,28 @@ import {OkuTabContent,OkuTabList,OkuTabTrigger,OkuTabs } from '@oku-ui/tabs'
             Name
           </label>
           <input
-            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             id="name"
+            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             defaultValue="Pedro Duarte"
-          />
+          >
         </fieldset>
         <fieldset class="mb-[15px] w-full flex flex-col justify-start">
           <label class="text-[13px] leading-none mb-2.5 text-violet12 block" htmlFor="username">
             Username
           </label>
           <input
-            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             id="username"
+            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             defaultValue="@peduarte"
-          />
+          >
         </fieldset>
         <div class="flex justify-end mt-5">
           <button class="inline-flex items-center justify-center rounded px-[15px] text-[15px] leading-none font-medium h-[35px] bg-green4 text-green11 hover:bg-green5 focus:shadow-[0_0_0_2px] focus:shadow-green7 outline-none cursor-default">
             Save changes
           </button>
         </div>
-      </OkuTabContent>
-      <OkuTabContent
+      </OkuTabsContent>
+      <OkuTabsContent
         class="grow p-5 bg-white dark:bg-grayA-950 rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
         value="tab2"
       >
@@ -70,10 +70,10 @@ import {OkuTabContent,OkuTabList,OkuTabTrigger,OkuTabs } from '@oku-ui/tabs'
             Current password
           </label>
           <input
-            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             id="currentPassword"
+            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             type="password"
-          />
+          >
         </fieldset>
         <fieldset class="mb-[15px] w-full flex flex-col justify-start">
           <label
@@ -83,10 +83,10 @@ import {OkuTabContent,OkuTabList,OkuTabTrigger,OkuTabs } from '@oku-ui/tabs'
             New password
           </label>
           <input
-            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             id="newPassword"
+            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             type="password"
-          />
+          >
         </fieldset>
         <fieldset class="mb-[15px] w-full flex flex-col justify-start">
           <label
@@ -96,17 +96,17 @@ import {OkuTabContent,OkuTabList,OkuTabTrigger,OkuTabs } from '@oku-ui/tabs'
             Confirm password
           </label>
           <input
-            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             id="confirmPassword"
+            class="grow shrink-0 rounded px-2.5 text-[15px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
             type="password"
-          />
+          >
         </fieldset>
         <div class="flex justify-end mt-5">
           <button class="inline-flex items-center justify-center rounded px-[15px] text-[15px] leading-none font-medium h-[35px] bg-green4 text-green11 hover:bg-green5 focus:shadow-[0_0_0_2px] focus:shadow-green7 outline-none cursor-default">
             Change password
           </button>
         </div>
-      </OkuTabContent>
+      </OkuTabsContent>
     </OkuTabs>
   </div>
 </template>
