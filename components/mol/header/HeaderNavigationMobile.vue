@@ -5,7 +5,9 @@ const openNavigation = ref(false)
 </script>
 
 <template>
-  asdsa
+  <div>
+    mobile
+  </div>
   <!-- <Popover>
     <HeaderItem
       :as="PopoverButton" type="button" title="Ouvrir la navigation" v-bind="$attrs"

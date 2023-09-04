@@ -12,6 +12,7 @@ useHead({
 </script>
 
 <template>
+  <NuxtLoadingIndicator />
   <Html dir="ltr" class="h-full font-sans antialiased">
     <Head>
       <!-- <SeoKit /> -->

@@ -28,11 +28,10 @@ defineProps<{
       {{ primitive.description }}
     </p>
 
-    <NuxtLink
-      to="primitive.company.url" rel="noopener"
+    <div
       class="relative z-30 flex items-center text-sm font-medium text-content hover:text-primary transition"
     >
-      <Icon name="heroicons:link-20-solid" class="h-4 w-4" />
-    </NuxtLink>
+      <span class="h-4 w-4" i-ph-link />
+    </div>
   </article>
 </template>

@@ -9,7 +9,7 @@
         <MolHeaderNavigation class="hidden md:flex" />
 
         <div class="w-full flex justify-end gap-6 md:absolute md:w-auto md:right-0">
-          <HeaderNavigationMobile class="md:hidden" />
+          <MolHeaderNavigationMobile class="md:hidden" />
           <MolColorModeSwitcher class="" />
         </div>
       </div>
