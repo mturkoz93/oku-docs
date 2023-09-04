@@ -1,6 +1,9 @@
 ---
 title: Label
 description: Renders an accessible label associated with controls.
+datePublished: 2022-12-07
+dateModified: 2022-12-07
+layout: primitive
 ---
 
 # Label

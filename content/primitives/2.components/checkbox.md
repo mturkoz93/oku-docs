@@ -1,6 +1,9 @@
 ---
 title: Checkbox
 description: Renders an accessible checkbox associated with controls.
+datePublished: 2022-12-07
+dateModified: 2022-12-07
+layout: primitive
 ---
 
 # Checkbox

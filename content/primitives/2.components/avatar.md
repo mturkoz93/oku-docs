@@ -1,6 +1,9 @@
 ---
 title: Avatar
 description: An image element with a fallback for representing the user.
+datePublished: 2022-12-07
+dateModified: 2022-12-07
+layout: primitive
 ---
 
 # Avatar

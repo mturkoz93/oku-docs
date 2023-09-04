@@ -12,10 +12,10 @@ onMounted(() => {
 })
 
 const logo = computed(() => {
-  return isDark.value === 'dark' ? 'https://raw.githubusercontent.com/oku-ui/static/main/logo/logo-white.svg' : 'https://raw.githubusercontent.com/oku-ui/static/main/logo/logo-dark.svg'
+  return isDark.value === 'dark' ? 'https://raw.githubusercontent.com/oku-ui/static/main/logo/icon-white.svg' : 'https://raw.githubusercontent.com/oku-ui/static/main/logo/icon-dark.svg'
 })
 </script>
 
 <template>
-  <img width="120" :src="logo">
+  <img width="80" v-bind="$attrs" :src="logo">
 </template>

@@ -1,0 +1,35 @@
+<script lang="ts" setup>
+const { navigation } = useContent()
+
+const { isActive } = useActivePath()
+</script>
+
+<template>
+  <footer class="mt-32 sm:px-8 lg:px-16">
+    <div class="max-w-screen-xl mx-auto px-8 border-t border-zinc-100 pt-10 pb-16 dark:border-zinc-700/40">
+      <div
+        class="max-w-2xl lg:max-w-5xl mx-auto flex flex-col gap-6 sm:flex-row justify-between items-center sm:items-start"
+      >
+        <nav aria-labelledby="Navigation secondaire">
+          <ul
+            class="grid grid-cols-2 sm:grid-cols-3 md:flex gap-x-6 md:gap-6 text-sm text-center font-medium text-content"
+          >
+            <li v-for="item in navigation" :key="item._path">
+              <NuxtLink
+                :to="item._path" class="relative block px-3 py-2 transition hover:text-primary text-sm"
+                :class="{ 'text-primary': isActive(item._path) }"
+              >
+                {{ item.title }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </nav>
+        <p class="sm:py-2 text-sm text-reduced">
+          2023
+          -
+          Oku is a project by <a href="https://productdevbook.com" class="text-primary">productdevbook</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</template>

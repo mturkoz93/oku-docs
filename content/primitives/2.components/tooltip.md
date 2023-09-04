@@ -1,6 +1,9 @@
 ---
 title: Tooltip
 description: A two-state button that can be either on or off.
+datePublished: 2022-12-07
+dateModified: 2022-12-07
+layout: primitive
 ---
 
 # Tooltip

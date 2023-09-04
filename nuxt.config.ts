@@ -3,6 +3,13 @@ import { createResolver } from '@nuxt/kit'
 const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
+  site: {
+    url: 'https://oku-ui.com',
+    name: 'Oku',
+    description: 'Oku is a brand and community focused on Vue and Nuxt ecosystem.',
+    defaultLocale: 'en',
+  },
+
   app: {
     head: {
       link: [{ rel: 'icon', type: 'image/svg', href: '/icon.svg' }],
@@ -10,9 +17,11 @@ export default defineNuxtConfig({
   },
 
   // https://github.com/nuxt-themes/docus
-  extends: '@nuxt-themes/docus',
+  // extends: '@nuxt-themes/docus',
 
   modules: [
+    '@nuxtjs/fontaine',
+    '@nuxtjs/google-fonts',
     // https://github.com/productdevbookcom/v-plausible
     'v-plausible',
     // https://github.com/nuxt/devtools
@@ -20,30 +29,60 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxthq/studio',
+    '@nuxtjs/color-mode',
+    '@nuxt/content',
+    '@nuxt/image',
+    '@vueuse/nuxt',
+    '@nuxtseo/module',
     resolve('./app/module'),
   ],
-
-  pinceau: {
-    preflight: false,
-  },
 
   oku: {
     icons: ['heroicons'],
   },
 
+  googleFonts: {
+    families: {
+      Inter: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+    },
+  },
+
+  css: [
+    '~/assets/css/app.css',
+  ],
+
   components: [
     {
-      global: true,
-      path: '~/components/primitives',
-    },
-    {
+      prefix: 'App',
       global: true,
       path: '~/components/app',
     },
     {
+      prefix: 'Home',
       global: true,
-      path: '~/components/docs',
-      prefix: '',
+      path: '~/components/home',
+    },
+    {
+      prefix: 'Mol',
+      path: '~/components/mol',
+    },
+    {
+      pathPrefix: true,
+      prefix: 'Atom',
+      path: '~/components/atom',
+    },
+    {
+      pathPrefix: true,
+      prefix: 'Org',
+      path: '~/components/org',
+    },
+    {
+      global: true,
+      path: '~/components/content',
+    },
+    {
+      global: true,
+      path: '~/components/primitives',
     },
   ],
 
@@ -60,6 +99,23 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
     },
+  },
+
+  content: {
+    documentDriven: {
+      host: 'https://oku-ui.com',
+      trailingSlash: true,
+    },
+    highlight: {
+      theme: {
+        default: 'vitesse-light',
+        dark: 'vitesse-dark',
+      },
+    },
+  },
+
+  colorMode: {
+    classSuffix: '',
   },
 
   routeRules: {

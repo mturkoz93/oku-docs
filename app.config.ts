@@ -1,38 +1,26 @@
 export default defineAppConfig({
-  docus: {
-    title: 'Oku',
-    description: 'The best place to start your documentation.',
-    image: '/og-image.png',
+  portfolio: {
     socials: {
-      github: 'oku-ui',
-      twitter: 'oku_ui',
-      discord: {
-        label: 'Discord',
+      github: {
+        name: 'GitHub',
+        url: 'https://github.com/oku-ui',
+        icon: 'mdi:github',
+      },
+      linkedin: {
+        name: 'Discord',
+        url: 'https://chat.productdevbook.com',
         icon: 'simple-icons:discord',
-        href: 'https://chat.productdevbook.com',
+      },
+      twitter: {
+        name: 'Twitter',
+        url: 'https://twitter.com/oku_ui',
+        icon: 'mdi:twitter',
       },
     },
     github: {
       dir: 'content',
       branch: 'main',
-      repo: 'docs',
-      owner: 'oku-ui',
-      edit: true,
-    },
-    aside: {
-      level: 0,
-      collapsed: false,
-      exclude: [],
-    },
-    main: {
-      padded: true,
-      fluid: true,
-    },
-    header: {
-      logo: true,
-      showLinkIcon: true,
-      exclude: [],
-      fluid: true,
+      owner: 'oku-ui/docs',
     },
   },
 })

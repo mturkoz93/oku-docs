@@ -1,41 +1,20 @@
 <script setup lang="ts">
+defineProps<Props>()
+definePageMeta({
+  layout: 'home',
+})
 const { teamMembers } = useContributors()
-const data = [
-  {
-    to: 'oku',
-    title: 'About',
-    description: 'Oku is a brand and community focused on the Vue and Nuxt markets. So, what wins the Oku?',
-    active: true,
-    theme: 'blue',
-    image: 'users',
-    buttonText: 'Explore',
-  },
-  {
-    to: 'primitives',
-    title: 'Primitives',
-    description: 'Unstyled, accessible components for building high‑quality design systems...',
-    active: true,
-    theme: 'purple',
-    image: 'command',
-    buttonText: 'See Docs',
-  },
-  {
-    to: '#',
-    title: 'Notification',
-    description: 'in the future.',
-    theme: 'orange',
-    image: 'bell',
-    active: false,
-  },
-  {
-    to: '#',
-    title: 'Motion',
-    description: 'in the future.',
-    theme: 'green',
-    image: 'zap',
-    active: false,
-  },
-]
+interface Props {
+  data: {
+    to: string
+    theme: 'orange' | 'blue' | 'purple' | 'green'
+    title: string
+    description: string
+    active?: boolean
+    image: string
+    buttonText?: string
+  }
+}
 </script>
 
 <template>

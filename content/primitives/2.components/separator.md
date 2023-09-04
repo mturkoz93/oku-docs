@@ -1,6 +1,9 @@
 ---
 title: Separator
 description: Visually or semantically separates content.
+datePublished: 2022-12-07
+dateModified: 2022-12-07
+layout: primitive
 ---
 
 # Separator

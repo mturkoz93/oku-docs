@@ -1,6 +1,9 @@
 ---
 title: Collapsible
 description: An interactive component which expands/collapses a panel.
+datePublished: 2022-12-07
+dateModified: 2022-12-07
+layout: primitive
 ---
 
 # Collapsible

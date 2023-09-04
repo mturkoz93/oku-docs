@@ -29,7 +29,7 @@ defineProps<CardProps>()
           {{ data.title }}
         </h2>
 
-        <div class="text-sm md:text-base card-text">
+        <div class="text-sm md:text-sm card-text">
           {{ data.description }}
         </div>
         <div :class="{ '!hidden': !data.buttonText }" class="card-button px-3 py-1 flex items-center justify-center gap-1 rounded-md border">
