@@ -15,6 +15,7 @@ useSchemaOrg([
 
 <template>
   <AtomSection>
+    <OkuToolbar />
     <AtomPageSection>
       <PageProseHeader :title="page.title" :date-published="page.datePublished" />
 
