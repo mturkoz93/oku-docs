@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Separator
-Visually or semantically separates content.
-
-::code-group{file="primitives/OkuSeparator"}
+::ContentTabs
 #preview
- ::oku-separator
+:ContentPreview{src="/primitives/OkuSeparator/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuSeparator/index.vue" lang="vue"} -->
 ::
 
 ## Features

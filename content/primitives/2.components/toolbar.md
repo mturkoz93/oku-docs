@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Toolbar
-A two-state button that can be either on or off.
-
-::code-group{file="primitives/OkuToolbar"}
+::ContentTabs
 #preview
- ::oku-toolbar
+:ContentPreview{src="/primitives/OkuToolbar/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuToolbar/index.vue" lang="vue"} -->
 ::
 
 ## Features

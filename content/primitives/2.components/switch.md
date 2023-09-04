@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Switch
-A two-state button that can be either on or off.
-
-::code-group{file="primitives/OkuSwitch"}
+::ContentTabs
 #preview
- ::oku-switch
+:ContentPreview{src="/primitives/OkuSwitch/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuSwitch/index.vue" lang="vue"} -->
 ::
 
 ## Features

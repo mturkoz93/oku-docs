@@ -16,10 +16,12 @@ useSchemaOrg([
 <template>
   <AtomSection>
     <AtomPageSection>
-      <PageProseHeader :title="page.title" :date-published="page.datePublished" />
+      <AtomPageProseHeader :title="page.title" :date-published="page.datePublished" />
 
-      <div class="prose dark:prose-invert prose-zinc w-full">
-        <slot />
+      <div class="mt-20">
+        <div class="prose dark:prose-invert prose-zinc w-full">
+          <slot />
+        </div>
       </div>
     </AtomPageSection>
   </AtomSection>

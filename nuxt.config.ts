@@ -84,6 +84,7 @@ export default defineNuxtConfig({
       global: true,
       path: '~/components/primitives',
     },
+    '~/components',
   ],
 
   plausible: {
@@ -104,13 +105,13 @@ export default defineNuxtConfig({
   content: {
     documentDriven: {
       host: 'https://oku-ui.com',
-      trailingSlash: true,
     },
     highlight: {
       theme: {
         default: 'vitesse-light',
         dark: 'vitesse-dark',
       },
+      preload: ['vue', 'json', 'js'],
     },
   },
 

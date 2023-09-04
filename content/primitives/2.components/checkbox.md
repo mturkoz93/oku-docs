@@ -6,13 +6,13 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Checkbox
-Renders an accessible checkbox associated with controls.
-
-::code-group{file="primitives/OkuCheckbox"}
+::ContentTabs
 #preview
- ::oku-checkbox
+:ContentPreview{src="/primitives/OkuCheckbox/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuCheckbox/index.vue" lang="vue"} -->
 ::
+
 
 ## Features
 

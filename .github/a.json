@@ -1,0 +1,1647 @@
+{
+  "parsed": {
+    "_path": "/primitives/components/avatar",
+    "_dir": "components",
+    "_draft": false,
+    "_partial": false,
+    "_locale": "",
+    "title": "Avatar",
+    "description": "An image element with a fallback for representing the user.",
+    "datePublished": "2022-12-07T00:00:00.000Z",
+    "dateModified": "2022-12-07T00:00:00.000Z",
+    "layout": "primitive",
+    "body": {
+      "type": "root",
+      "children": [
+        {
+          "type": "element",
+          "tag": "h1",
+          "props": {
+            "id": "avatar"
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "Avatar"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "type": "text",
+              "value": "An image element with a fallback for representing the user."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "code-group",
+          "props": {
+            "file": "primitives/OkuAvatar"
+          },
+          "children": [
+            {
+              "type": "element",
+              "tag": "template",
+              "props": {
+                "v-slot:preview": ""
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "oku-avatar",
+                  "props": {},
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "props": {
+            "id": "features"
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "Features"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "ul",
+          "props": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "li",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Automatic and manual control over when the image renders."
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "li",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Fallback part accepts any children."
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "li",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Optionally delay fallback rendering to avoid content flashing."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "props": {
+            "id": "installation"
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "Installation"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "type": "text",
+              "value": "Install the component from your command line."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "pre",
+          "props": {
+            "className": "language-bash vitesse-light_vitesse-dark",
+            "code": "pnpm install @oku-ui/avatar\n",
+            "language": "bash",
+            "meta": ""
+          },
+          "children": [
+            {
+              "type": "element",
+              "tag": "code",
+              "props": {
+                "__ignoreMap": ""
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 1
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-010973"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "pnpm"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-044980"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "install"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-044980"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "@oku-ui/avatar"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "props": {
+            "id": "anatomy"
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "Anatomy"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "type": "text",
+              "value": "Import the component."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "pre",
+          "props": {
+            "className": "language-vue vitesse-light_vitesse-dark",
+            "code": "<script setup lang=\"ts\">\nimport { OkuAvatar, OkuAvatarFallback, OkuAvatarImage } from '@oku-ui/avatar'\n</script>\n\n<template>\n  <OkuAvatar>\n    <OkuAvatarImage />\n    <OkuAvatarFallback />\n  </OkuAvatar>\n</template>\n",
+            "language": "vue",
+            "meta": ""
+          },
+          "children": [
+            {
+              "type": "element",
+              "tag": "code",
+              "props": {
+                "__ignoreMap": ""
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 1
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "<"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-779822"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "script"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-884112"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "setup"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-884112"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "lang"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "="
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-075724"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "\""
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-044980"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "ts"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-075724"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "\""
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ">\n"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 2
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-779822"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "import"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "{"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-884112"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "OkuAvatar"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ","
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-884112"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "OkuAvatarFallback"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ","
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-884112"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "OkuAvatarImage"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-779822"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "from"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-075724"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "'"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-044980"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "@oku-ui/avatar"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-075724"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "'\n"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 3
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "</"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-779822"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "script"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ">\n"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 4
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {},
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 5
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "<"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-779822"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "template"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ">\n"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 6
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "  "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "<"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-425593"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "OkuAvatar"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ">\n"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 7
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "    "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "<"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-425593"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "OkuAvatarImage"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " />\n"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 8
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "    "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "<"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-425593"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "OkuAvatarFallback"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": " />\n"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 9
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-068918"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "  "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "</"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-425593"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "OkuAvatar"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ">\n"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "props": {
+                    "class": "line",
+                    "line": 10
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "</"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-779822"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "template"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "props": {
+                        "class": "ct-956666"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ">"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "props": {
+            "id": "api-reference"
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "API Reference"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "props": {
+            "id": "okuavatar"
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "OkuAvatar"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "type": "text",
+              "value": "Contains all the parts of an avatar."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "table",
+          "props": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "thead",
+              "props": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "th",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Prop"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "th",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Type"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "th",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "tbody",
+              "props": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "div",
+                          "props": {
+                            "className": [
+                              "code"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "asChild"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "div",
+                          "props": {
+                            "className": [
+                              "code"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "boolean"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "div",
+                          "props": {
+                            "className": [
+                              "code"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "false"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "props": {
+            "id": "okuavatarimage"
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "OkuAvatarImage"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "type": "text",
+              "value": "The image to render. By default it will only render when it has loaded. You can use the "
+            },
+            {
+              "type": "element",
+              "tag": "code",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "onLoadingStatusChange"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "value": " handler if you need more control."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "table",
+          "props": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "thead",
+              "props": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "th",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Prop"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "th",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Type"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "th",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tag": "tbody",
+              "props": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "div",
+                          "props": {
+                            "className": [
+                              "code"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "asChild"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "div",
+                          "props": {
+                            "className": [
+                              "code"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "boolean"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "div",
+                          "props": {
+                            "className": [
+                              "code"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "false"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "div",
+                          "props": {
+                            "className": [
+                              "code"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "onLoadingStatusChange"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "div",
+                          "props": {
+                            "className": [
+                              "code"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "(status: \"idle\""
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "\"loading\""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "props": {
+            "id": "okuavatarfallback"
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "OkuAvatarFallback"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "props": {},
+          "children": [
+            {
+              "type": "text",
+              "value": "An element that renders when the image hasn't loaded. This means whilst it's loading, or if there was an error. If you notice a flash during loading, you can provide a "
+            },
+            {
+              "type": "element",
+              "tag": "code",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "delay-ms"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "value": " prop to delay its rendering so it only renders for those with slower connections. For more control, use the "
+            },
+            {
+              "type": "element",
+              "tag": "code",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "onLoadingStatusChange"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "value": " handler on "
+            },
+            {
+              "type": "element",
+              "tag": "code",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "OkuAvatarImage"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tag": "style",
+          "props": {},
+          "children": [
+            {
+              "type": "text",
+              "value": ".vitesse-light_vitesse-dark{color:#393a34;background:#ffffff;}.dark .vitesse-light_vitesse-dark{color:#dbd7caee;background:#121212;}.ct-010973{color:#59873A;}.dark .ct-010973{color:#80A665;}.ct-068918{color:#393A34;}.dark .ct-068918{color:#DBD7CAEE;}.ct-044980{color:#B56959;}.dark .ct-044980{color:#C98A7D;}.ct-956666{color:#999999;}.dark .ct-956666{color:#666666;}.ct-779822{color:#1E754F;}.dark .ct-779822{color:#4D9375;}.ct-884112{color:#B07D48;}.dark .ct-884112{color:#BD976A;}.ct-075724{color:#B5695999;}.dark .ct-075724{color:#C98A7D99;}.ct-425593{color:#B31D28;}.dark .ct-425593{color:#FDAEB7;}"
+            }
+          ]
+        }
+      ],
+      "toc": {
+        "title": "",
+        "searchDepth": 2,
+        "depth": 2,
+        "links": [
+          {
+            "id": "features",
+            "depth": 2,
+            "text": "Features"
+          },
+          {
+            "id": "installation",
+            "depth": 2,
+            "text": "Installation"
+          },
+          {
+            "id": "anatomy",
+            "depth": 2,
+            "text": "Anatomy"
+          },
+          {
+            "id": "api-reference",
+            "depth": 2,
+            "text": "API Reference",
+            "children": [
+              {
+                "id": "okuavatar",
+                "depth": 3,
+                "text": "OkuAvatar"
+              },
+              {
+                "id": "okuavatarimage",
+                "depth": 3,
+                "text": "OkuAvatarImage"
+              },
+              {
+                "id": "okuavatarfallback",
+                "depth": 3,
+                "text": "OkuAvatarFallback"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "_type": "markdown",
+    "_id": "content:primitives:2.components:avatar.md",
+    "_source": "content",
+    "_file": "primitives/2.components/avatar.md",
+    "_extension": "md",
+    "sitemap": {
+      "loc": "/primitives/components/avatar",
+      "lastmod": "2023-09-04T13:03:35.960Z",
+      "images": []
+    }
+  },
+  "hash": "ieSYyWxnHj"
+}

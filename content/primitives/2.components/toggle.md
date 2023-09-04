@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Toggle
-A two-state button that can be either on or off.
-
-::code-group{file="primitives/OkuToggle"}
+::ContentTabs
 #preview
- ::oku-toggle
+:ContentPreview{src="/primitives/OkuToggle/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuToggle/index.vue" lang="vue"} -->
 ::
 
 ## Features

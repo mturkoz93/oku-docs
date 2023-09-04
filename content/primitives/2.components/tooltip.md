@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Tooltip
-A two-state button that can be either on or off.
-
-::code-group{file="primitives/OkuTooltip"}
+::ContentTabs
 #preview
- ::oku-tooltip
+:ContentPreview{src="/primitives/OkuTooltip/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuTooltip/index.vue" lang="vue"} -->
 ::
 
 ## Features

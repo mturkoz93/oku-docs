@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Popover
-A two-state button that can be either on or off.
-
-::code-group{file="primitives/OkuPopover"}
+::ContentTabs
 #preview
- ::oku-popover
+:ContentPreview{src="/primitives/OkuPopover/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuPopover/index.vue" lang="vue"} -->
 ::
 
 ## Features

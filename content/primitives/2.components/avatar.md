@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Avatar
-An image element with a fallback for representing the user.
-
-::code-group{file="primitives/OkuAvatar"}
+::ContentTabs
 #preview
- ::oku-avatar
+:ContentPreview{src="/primitives/OkuAvatar/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuAvatar/index.vue" lang="vue"} -->
 ::
 
 

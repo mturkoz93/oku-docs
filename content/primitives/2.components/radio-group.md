@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Radio Group
-A two-state button that can be either on or off.
-
-::code-group{file="primitives/OkuRadioGroup"}
+::ContentTabs
 #preview
- ::oku-radio-group
+:ContentPreview{src="/primitives/OkuRadioGroup/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuRadioGroup/index.vue" lang="vue"} -->
 ::
 
 ## Features

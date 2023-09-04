@@ -29,7 +29,7 @@ const selectedTab = computed(() => tabs.value.find((data, index) => {
       </div>
     </div>
     <slot name="code">
-      <div :selected-index="selectedIndex" class="mt-5">
+      <div class="mt-5">
         <OkuTabs
           v-model="selectedIndex"
           default-value="tab-0"

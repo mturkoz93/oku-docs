@@ -6,13 +6,13 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Label
-Renders an accessible label associated with controls.
-
-::code-group{file="primitives/OkuLabel"}
+::ContentTabs
 #preview
- ::oku-label
+:ContentPreview{src="/primitives/OkuLabel/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuLabel/index.vue" lang="vue"} -->
 ::
+
 
 ## Installation
 

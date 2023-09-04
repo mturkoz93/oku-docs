@@ -6,12 +6,11 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Progress
-Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.
-
-::code-group{file="primitives/OkuProgress"}
+::ContentTabs
 #preview
- ::oku-progress
+:ContentPreview{src="/primitives/OkuProgress/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuProgress/index.vue" lang="vue"} -->
 ::
 
 ## Features

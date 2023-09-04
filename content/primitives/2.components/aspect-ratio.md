@@ -6,15 +6,12 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Aspect Ratio
-Displays content within a desired ratio.
-
-
-::code-group{file="primitives/OkuAspectRatio"}
+::ContentTabs
 #preview
- ::oku-aspect-ratio
+:ContentPreview{src="/primitives/OkuAspectRatio/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuAspectRatio/index.vue" lang="vue"} -->
 ::
-
 
 ## Features
 

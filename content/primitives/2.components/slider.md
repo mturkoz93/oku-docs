@@ -6,13 +6,13 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Slider
-A two-state button that can be either on or off.
-
-::code-group{file="primitives/OkuSlider"}
+::ContentTabs
 #preview
- ::oku-slider
+:ContentPreview{src="/primitives/OkuSlider/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuSlider/index.vue" lang="vue"} -->
 ::
+
 
 ## Features
 - Full keyboard navigation.

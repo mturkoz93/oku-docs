@@ -6,14 +6,14 @@ dateModified: 2022-12-07
 layout: primitive
 ---
 
-# Collapsible
-An interactive component which expands/collapses a panel.
 
-
-::code-group{file="primitives/OkuCollapsible"}
+::ContentTabs
 #preview
- ::oku-collapsible
+:ContentPreview{src="/primitives/OkuCollapsible/index.vue"}
+#vue
+<!-- Autodocs{src="/primitives/OkuCollapsible/index.vue" lang="vue"} -->
 ::
+
 
 ## Features
 - Full keyboard navigation.
