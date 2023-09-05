@@ -4,6 +4,9 @@ description: Displays an indicator showing the completion progress of a task, ty
 datePublished: 2022-12-07
 dateModified: 2022-12-07
 layout: primitive
+component: OkuProgress
+readingTime: 3
+version: 0.4.0
 ---
 
 ::ContentTabs

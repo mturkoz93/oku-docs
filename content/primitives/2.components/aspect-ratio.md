@@ -4,6 +4,9 @@ description: Displays content within a desired ratio.
 datePublished: 2022-12-07
 dateModified: 2022-12-07
 layout: primitive
+component: OkuAspectRatio
+readingTime: 3
+version: 0.4.0
 ---
 
 ::ContentTabs

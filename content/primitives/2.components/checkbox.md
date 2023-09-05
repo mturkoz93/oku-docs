@@ -4,6 +4,9 @@ description: Renders an accessible checkbox associated with controls.
 datePublished: 2022-12-07
 dateModified: 2022-12-07
 layout: primitive
+component: OkuCheckbox
+readingTime: 3
+version: 0.4.0
 ---
 
 ::ContentTabs
@@ -39,17 +42,11 @@ Import the component.
 import type { CheckboxRef } from '@oku-ui/checkbox'
 import { OkuCheckbox, OkuCheckboxIndicator } from '@oku-ui/checkbox'
 import { onMounted, ref } from 'vue'
-
-const refV = ref<CheckboxRef>()
-
-onMounted(() => {
-  console.log(refV.value?.innerRef)
-})
 </script>
 
 <template>
   <div class="flex items-center justify-center">
-    <OkuCheckbox ref="refV">
+    <OkuCheckbox>
       <OkuCheckboxIndicator />
     </OkuCheckbox>
   </div>

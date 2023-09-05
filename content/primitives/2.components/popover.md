@@ -4,6 +4,9 @@ description: A two-state button that can be either on or off.
 datePublished: 2022-12-07
 dateModified: 2022-12-07
 layout: primitive
+component: OkuPopover
+readingTime: 3
+version: 0.4.0
 ---
 
 ::ContentTabs

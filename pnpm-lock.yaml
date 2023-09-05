@@ -40,53 +40,53 @@ dependencies:
     specifier: ^3.0.2
     version: 3.0.2
   '@oku-ui/aspect-ratio':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/avatar':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/checkbox':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/collapsible':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/label':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/popover':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/progress':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/radio-group':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/separator':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/slider':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/switch':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/tabs':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/toggle':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/toggle-group':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/toolbar':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@oku-ui/tooltip':
-    specifier: ^0.4.0-alpha.3
-    version: 0.4.0-alpha.3(vue@3.3.4)
+    specifier: ^0.4.0-alpha.4
+    version: 0.4.0-alpha.4(vue@3.3.4)
   '@tailwindcss/typography':
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.3.3)
@@ -1985,8 +1985,8 @@ packages:
       - webpack
     dev: true
 
-  /@oku-ui/arrow@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-qDjwJXCvleC4EHkGHcrWUKa8u3bo5IguU2zGX/AIMl3IZ2uhtuzzEgGPO27afs0IYaM94VNt201XP1rxC7XXJA==}
+  /@oku-ui/arrow@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-QblEyP6uzAO+l2t9TVMjkL93D/nLUzAyYLe09x3T4/Urwt+kKHV8mRCVW3p0Y1dquB1El/Tkb4HJrCDROok13g==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -1998,8 +1998,8 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/aspect-ratio@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-VIn+PrLraOuJ+FofyBHrLGgZfKAJo+qmQKjGaqRFiBmL1qvpJE6+qr2K/X9+YKyzXCaxb9M90DOappKYM2ma8Q==}
+  /@oku-ui/aspect-ratio@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-BqDqk7BLTc22Y+pRiyVSiwMPZUSoccHDBgPk9hMSqGWsIh9pi6Acw68Kg2dHdtpkyyMWeYoCVActsSCOFAcIYQ==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2011,8 +2011,8 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/avatar@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-Bd0KB67BakbE2YfhkbNGIKGStmXx40yAWmlGHkPfX4qsGdfANHIZZ3gwqaX2KHEn4gDNoUDViq2Chx0iyR0SDA==}
+  /@oku-ui/avatar@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-Jp/Oe/w5+VIITTmwA0I55j9WUNJlwK9Qa69obx6pxAxs+Wj9q3yRz/4Jhc2DKuo6g7jY230RetlKysvyIDu6Lw==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2026,13 +2026,13 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/checkbox@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-JuLSfhHeHUW4wQ4o9GlH3pvs429kxLNFN8+7ZRlcdsYyndxc5ipIbvRV6s1D6W4NMWTi+E+4Jc/ktvbhB0qJlA==}
+  /@oku-ui/checkbox@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-YIvHzu5rVjgGhaIVesxlXWxC0OtsxVqn4A4JVMtjUhNL1nttOehoPcngvFzqATXC3oVhTGWcLSKnQpeSO8DIJA==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
     dependencies:
-      '@oku-ui/presence': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/presence': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
@@ -2042,12 +2042,12 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/collapsible@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-BdajpaBAbCKCeRnHk7xwZeaCNAlLsz6wyXidWUCNHWcOCipTd5k/PcxcAnItpLANKtjn58ZAeWJdTvVvg2fJKg==}
+  /@oku-ui/collapsible@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-whwC1yepQ9cKc69tyndDoD087JEs2aUHz/lD7R3Vukf78EEv0sf24tP0HaRAg2GPokFvC72GX/WgJ8r3LAeMDw==}
     peerDependencies:
       vue: 3.3.4
     dependencies:
-      '@oku-ui/presence': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/presence': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
@@ -2057,15 +2057,15 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/collection@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-riUrnJys+D4qB/9aXbilcgETjikAcKEKS5KM5+RiM9X0nQrmrCmwWVgxK6M5pA+6pqkynHE0F+kC6e6UCkmBeA==}
+  /@oku-ui/collection@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-hQzJsO4NSz2hff9G5ITXRhcZNnTM5PQ7sxFXlUxmaRmuAqyM0na+VVUFAULLcqcTyRTLrqiqX27hRXBMk8Ky3g==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
     dependencies:
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/slot': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/slot': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/utils': 0.3.0-alpha.1
       vue: 3.3.4
@@ -2073,8 +2073,8 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/direction@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-zZg8Dsf1cIDMlTdll592Bb60Crg1cx68SmF6Zkf3kDGmblPejHOrcObKgOu/hKmQf2uwRBFAhzZjuIKE+nnX2w==}
+  /@oku-ui/direction@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-ZAZvSuC/KXzh+R++6KednU6TJ2GM4sXlw/TxsZo52/WT6aRUJGHvMRORW10Hq59RA9SFTIcQQNqZZ4RgbxY4qQ==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2082,8 +2082,8 @@ packages:
       vue: 3.3.4
     dev: false
 
-  /@oku-ui/dismissable-layer@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-FszLGQL0M5DRhfYiEARIBHOafY6lgMG6/brnaE2kWhfisYUVgqBMbE2jnXLEO9Vh2RDbdTiVf45X83SyJYk/5w==}
+  /@oku-ui/dismissable-layer@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-pEXodcnhGwly4kcoyX3orlXdnw270Hb6B8UIiVWzRIzQKOjAgABjtEBA1Zqh9VxJdF5I1hdG2YxCZ+KvZcgLPw==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2106,8 +2106,8 @@ packages:
       vue: 3.3.4
     dev: false
 
-  /@oku-ui/focus-scope@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-pPqNxvNxs8TreOAfngyZZ51fZOM4lbMZe+RioZLoDL9UNSq0ZONL/LvKbPWWtFScRiO/K8n8HAN9Klk0Zzf4UA==}
+  /@oku-ui/focus-scope@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-n2b3R5JV6lCTW4Z3UJ49koEi5PAkwXgsFRISkGQ0JK+2JyFXXp2+UjOMkXzMf0MabAdU+VkYRxo5Xc7INkYroQ==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2119,8 +2119,8 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/label@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-PCDvAPCIcw3uOWAfdni5giXhjBTXCEohnYHM2mF/0abbDG7wDgt9pioDl3mZLak+3YZijn/iiSZAQ6vXg3T1rg==}
+  /@oku-ui/label@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-zgs54gCVASZzIEE9+8ucAzyR2TVHM1Cf1XUleaf3I2YAIekunENRFNcnDJctfUFlOYqYvNG52ttLkPS+G3T9cw==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2133,22 +2133,22 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/popover@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-ihapDez9HoT79Je0b5vSvP3EoZ6XcHlyGC1NOida4ufUy2X37tL5MqBB+lCiOtsA1oGLd35yakGVWVTfyed+DA==}
+  /@oku-ui/popover@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-ZecPvh4vBDUq98WFjQkmpdpraEoWKanW4FBSFnewK6ZleVD5xiuWY357mJ0zQMdmrXDGkWV5W7PSWZkNV82uuA==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
     dependencies:
       '@floating-ui/vue': 1.0.2(vue@3.3.4)
-      '@oku-ui/dismissable-layer': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/dismissable-layer': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/focus-guards': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/focus-scope': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/popper': 0.4.0-alpha.3(@floating-ui/vue@1.0.2)(vue@3.3.4)
-      '@oku-ui/portal': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/presence': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/focus-scope': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/popper': 0.4.0-alpha.4(@floating-ui/vue@1.0.2)(vue@3.3.4)
+      '@oku-ui/portal': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/presence': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/slot': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/slot': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/utils': 0.3.0-alpha.1
       aria-hidden: 1.2.3
@@ -2157,14 +2157,14 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/popper@0.4.0-alpha.3(@floating-ui/vue@1.0.2)(vue@3.3.4):
-    resolution: {integrity: sha512-9gzhV7sQsAt7mGCoZ1Gohi3jUBtex7zw+cDpQjSjfENcJJvAMLIldl5OPuzCQKXVcf0RQoNCPSKr+sLutuwgwA==}
+  /@oku-ui/popper@0.4.0-alpha.4(@floating-ui/vue@1.0.2)(vue@3.3.4):
+    resolution: {integrity: sha512-gBkPHCKx7v90oKjd4tE97VKIpK/YHaCABFARYG3uvjYcykkUwid5L+p/3HqXpMb6Mx4zT1NhqNUiBj6cu3Usrw==}
     peerDependencies:
       '@floating-ui/vue': ^1.0.2
       vue: 3.3.4
     dependencies:
       '@floating-ui/vue': 1.0.2(vue@3.3.4)
-      '@oku-ui/arrow': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/arrow': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
@@ -2174,8 +2174,8 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/portal@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-fdrJ8G9AlP/H97+JJGK183GaDZvsmYpWDElDnTbaiyMDiqEbyADspyEbUfZw/t9f2WWZJvi5P3N/VDOz4O1bdg==}
+  /@oku-ui/portal@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-HRuCOOMdl00/KgmtD/M0voUqSwNvyRqvaY2jxCmIZYeFKaA/R76X09RwDOWpICWgn2fkgGYMwZpms3cJSmIHHw==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2189,8 +2189,8 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/presence@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-6AH00TMn6pvuYzyns3hpxJJO7nfO0OJmnYCEAuCFnwALezISb4dngscUBNM87rxncE5yVFhn2zO9Gqa9lRn99A==}
+  /@oku-ui/presence@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-OVEzYDSjbU2/bSVKemRY/QKVuAjutV0FfNOedH2fMW9jk2KnWx82+Sn3lqjFGGw5wCpMzS3D77hNR2a0+3U7IA==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2207,7 +2207,7 @@ packages:
     peerDependencies:
       vue: 3.3.4
     dependencies:
-      '@oku-ui/slot': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/slot': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       filter-anything: 3.0.7
       vue: 3.3.4
@@ -2215,8 +2215,8 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/progress@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-PKP7bQbatSRKTC7eMePO65T+wjNsuH5RDVtOr+H4j1Ug2fucdUbWMr3KNTc+YgcsPT0riiP3PYllMBlwwogQJg==}
+  /@oku-ui/progress@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-kIbVg4wupxyiSJn1AbBx96fE+8AMF6NJ+p6j8FLy7mOW3B/E93aCvGcU5AsDktrJ477Yrioi29PIuK27u9Cvgg==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2238,16 +2238,16 @@ packages:
       vue: 3.3.4
     dev: false
 
-  /@oku-ui/radio-group@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-9Wd2UQiyMbXTagxlesISQG0StbEU5osOB6a+nPfGCzHEwz9uwmyivWjBN9JzpZHdNSnIp6SrLY7SaM1nGAA49A==}
+  /@oku-ui/radio-group@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-j6jps8VtAqF3xoZIJOTLEEmuKf9LTee+gKx8hMDraOGIsbio79tgT3qZrxJeutFj0sLSxtvfYI3smAI4A2T62Q==}
     peerDependencies:
       vue: 3.3.4
     dependencies:
-      '@oku-ui/direction': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/presence': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/direction': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/presence': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/roving-focus': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/roving-focus': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/utils': 0.3.0-alpha.1
       vue: 3.3.4
@@ -2255,45 +2255,14 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/roving-focus@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-ED83iDYXxFg05HE5pherZLJ6Ox9o3dOEDH7EtXZf8yFt6PXRGpRTPzBlZ4eH27ON3+GaKXcOx1MraBBOcKBRRA==}
+  /@oku-ui/roving-focus@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-RZ8hk8728/5VeXXrYP/HVXsRaFuFZlXOJUpeSsv51mEE4HsUyikJv8SddPlGx5oQU6atPYlwKczPy9wot+o+Bw==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
     dependencies:
-      '@oku-ui/collection': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/direction': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/utils': 0.3.0-alpha.1
-      vue: 3.3.4
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-    dev: false
-
-  /@oku-ui/separator@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-CvIjub5PqEep3wN5KUspYDJk2GOHts0qx/ddol55PYIpuKlzk7pOa6AYYjs4x+IZ0tmJCgRcUNl964lZaw0n+Q==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      vue: 3.3.4
-    dependencies:
-      '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/utils': 0.3.0-alpha.1
-      vue: 3.3.4
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-    dev: false
-
-  /@oku-ui/slider@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-oSKP6IrbprcsMtQGwVPqINJn94NMiD4VlbozxZb4vWZw/B8mJLeKHSB5z9aY0bBurCB4a3QE3PWZXqZ13jCnGA==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      vue: 3.3.4
-    dependencies:
-      '@oku-ui/collection': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/direction': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/collection': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/direction': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
@@ -2303,27 +2272,13 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/slot@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-cy0ZCaLjqtkTEhkFkj6RnmFr2oNjnEXcN4W2r8M8eM21KRaJBWI6IaAWjhHLFQ+9xvkK2nc3H7qW+E6fJG4Jkg==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      vue: 3.3.4
-    dependencies:
-      '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/utils': 0.3.0-alpha.1
-      vue: 3.3.4
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-    dev: false
-
-  /@oku-ui/switch@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-aGs/M/4iVroRjm2H2JoscggfG6NuW761yGYium7j8WnRk9JcFlzIGwWK6KIaw9fV5td1o8/p8eMQexDyyAGJZQ==}
+  /@oku-ui/separator@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-bhrqPbeDpZQ9oofzLoEPWzGqCoIBOQ8V53GIaZ2lb5QPp7Rozi/beJVzh9ZwcxAai6IgrFVrMF+w1//d+dYGIQ==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
     dependencies:
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/utils': 0.3.0-alpha.1
       vue: 3.3.4
@@ -2331,16 +2286,16 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/tabs@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-dLnOG3kPavLD0m22JY+9c67XhfFqq4I4KdK6dHKsWXg15PSzR2hk58a5aSgsMQYOCdxE8xZzmV9SKzhfKzMHlw==}
+  /@oku-ui/slider@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-Mal85ktvoDyy2nOc+sUwmB6l/+DN1JkOsy4rm+11X0U9kwBY9IEGwIxNSJdkBpjjuOj+9u+60ihyQ2K3v3L72g==}
+    engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
     dependencies:
-      '@oku-ui/direction': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/presence': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/collection': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/direction': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/roving-focus': 0.4.0-alpha.3(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/utils': 0.3.0-alpha.1
       vue: 3.3.4
@@ -2348,17 +2303,12 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/toggle-group@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-n23CTdL/f4KIO17xuJn4sJNQe5qv5F5ek/nfZgkVzAKHd6Jh9phgeqy3WcWhFOHlM5yT7v0Z2DGEnrUEg0bLVA==}
+  /@oku-ui/slot@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-4efEwM1k1EZ2HZieJKHa4AOS2HwzhJTDu4N6TvsRnicT6E9JBRBGDY0IBQmegIrk68NCi5J43VAz5hHRU9iLiA==}
+    engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
     dependencies:
-      '@oku-ui/direction': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/presence': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/roving-focus': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/toggle': 0.4.0-alpha.3(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/utils': 0.3.0-alpha.1
       vue: 3.3.4
@@ -2366,8 +2316,8 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/toggle@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-OAa1gr183Pq4HEdv3tNoLy5KYlTpQQjDAgfmPTfMv5XJOTHxqM2elUcabuGPDovF66IFTqjPOUzon7tcwOLBwg==}
+  /@oku-ui/switch@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-ZPzfwG3X4nUuuAFFqeMeuQMvZ9+s5DlaN/NuNshUpmiuMpOuEwE5IarHwY+7iHrvniD4VUmtE1PynMGTrQ3sXA==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
@@ -2381,18 +2331,16 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/toolbar@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-grKw7hocFGq8dBIvowGqEUopB068QPb7+h6xV2qfDfxMPIKKtrlMQRdasF+irSJV7kWW6jboi6skZKJVPv79Tg==}
-    engines: {node: '>=18'}
+  /@oku-ui/tabs@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-IDhNSi+dUsBfZxpErnAYchqKbFPVo0cekrwLYW6ucN5zvvobdV0b+F1P79cuZs+di8Bv4S3A1lApVPxgSpt3YA==}
     peerDependencies:
       vue: 3.3.4
     dependencies:
-      '@oku-ui/direction': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/direction': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/presence': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/roving-focus': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/separator': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/toggle-group': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/roving-focus': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/utils': 0.3.0-alpha.1
       vue: 3.3.4
@@ -2400,23 +2348,75 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /@oku-ui/tooltip@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-cF4iGwnlzThOWvxXfdug45+Zn117vcasUaICEdJ/7vW1U0xl4pe7Vzdhu9xfr26ZOqxcZg/qM/NcO89EOYK7LA==}
+  /@oku-ui/toggle-group@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-Z2LHgMdYL/5H101CEGBQ9ryLg9qeCGIuzUbyxb231etvn3z18mbGDkjDMOpMLUiexlp3xvAwMQti5gJQNR7LuA==}
+    peerDependencies:
+      vue: 3.3.4
+    dependencies:
+      '@oku-ui/direction': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/presence': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/roving-focus': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/toggle': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/utils': 0.3.0-alpha.1
+      vue: 3.3.4
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+    dev: false
+
+  /@oku-ui/toggle@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-PVymjvYsDhZpT2r47fCxLR5Qa2C4B4v5s4XA9UpoRNvH2GUhj07V32mjBSPOQTYZ5DoQ4J+mpKiCwaCMJ9IjUQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      vue: 3.3.4
+    dependencies:
+      '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/utils': 0.3.0-alpha.1
+      vue: 3.3.4
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+    dev: false
+
+  /@oku-ui/toolbar@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-LhgMrM2ZyOTYScyOHphlcWAPls1CUuJCqWEXHyMq8sv1f3t8Oq90uqcw1xG008cnEkU0usUnCtLOa3Cgdzl7fg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      vue: 3.3.4
+    dependencies:
+      '@oku-ui/direction': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/roving-focus': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/separator': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/toggle-group': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
+      '@oku-ui/utils': 0.3.0-alpha.1
+      vue: 3.3.4
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+    dev: false
+
+  /@oku-ui/tooltip@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-iPAxrNXwKkwU/OmM9b0KzFTMUPTOoyem2pgBl0hc9so7QJ/StYV8+t+yoeqU5pYa0g48vgUJ5TLMqNxscy4Fwg==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4
     dependencies:
       '@floating-ui/vue': 1.0.2(vue@3.3.4)
-      '@oku-ui/dismissable-layer': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/popper': 0.4.0-alpha.3(@floating-ui/vue@1.0.2)(vue@3.3.4)
-      '@oku-ui/portal': 0.4.0-alpha.3(vue@3.3.4)
-      '@oku-ui/presence': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/dismissable-layer': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/popper': 0.4.0-alpha.4(@floating-ui/vue@1.0.2)(vue@3.3.4)
+      '@oku-ui/portal': 0.4.0-alpha.4(vue@3.3.4)
+      '@oku-ui/presence': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/primitive': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/provide': 0.3.0-alpha.1(vue@3.3.4)
-      '@oku-ui/slot': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/slot': 0.4.0-alpha.4(vue@3.3.4)
       '@oku-ui/use-composable': 0.3.0-alpha.1(vue@3.3.4)
       '@oku-ui/utils': 0.3.0-alpha.1
-      '@oku-ui/visually-hidden': 0.4.0-alpha.3(vue@3.3.4)
+      '@oku-ui/visually-hidden': 0.4.0-alpha.4(vue@3.3.4)
       vue: 3.3.4
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -2441,8 +2441,8 @@ packages:
       vue: 3.3.4
     dev: false
 
-  /@oku-ui/visually-hidden@0.4.0-alpha.3(vue@3.3.4):
-    resolution: {integrity: sha512-4/piyabqznBKiwDXvyfkA5bIBkrA4cq+uHiwHwytBrLkSuZnJW10xxdLvFxfTnntEaCr9DgFpJmlZhMunIb3ow==}
+  /@oku-ui/visually-hidden@0.4.0-alpha.4(vue@3.3.4):
+    resolution: {integrity: sha512-iD9oW5jNnz6MTqbteAce70xZ2LOZuPLJXRYx9BHPyaLJqD1POf/NPUr4f1SKzTLRUYlYZljPekmFtfjkz9tFSA==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: 3.3.4

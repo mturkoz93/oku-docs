@@ -6,9 +6,7 @@ import { computed, ref } from 'vue'
 const slots = useSlots()
 
 const active = ref(Object.keys(slots)[0])
-onMounted(() => {
-  console.log(slots)
-})
+
 const tabs = ref([
   { name: 'preview', title: 'Preview' },
   { name: 'config', title: 'inkline.config.ts' },

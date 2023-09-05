@@ -4,6 +4,9 @@ description: Renders an accessible label associated with controls.
 datePublished: 2022-12-07
 dateModified: 2022-12-07
 layout: primitive
+component: OkuLabel
+readingTime: 3
+version: 0.4.0
 ---
 
 ::ContentTabs

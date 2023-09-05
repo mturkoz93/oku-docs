@@ -1,12 +1,8 @@
 <script setup lang="ts">
+import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
+
 export interface CardProps {
-  data: {
-    link: string
-    version: string
-    title: string
-    description: string
-    component: string
-  }
+  data: ParsedContent
 }
 
 defineProps<CardProps>()
@@ -14,6 +10,10 @@ defineProps<CardProps>()
 
 <template>
   <div class="relative overflow-hidden group w-full">
+    <NuxtLink
+      :to="data._path"
+      class="absolute inset-0 z-10"
+    />
     <div
       class="w-full p-4 rounded-2xl flex-col gap-2 backdrop-blur-sm bg-[#575757]/10 border border-[#DEDEDE] dark:border-[#303030] inline-flex min-h-[138px] sm:min-h-[146px]"
     >

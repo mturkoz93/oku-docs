@@ -1,6 +1,6 @@
 <script setup lang="ts">
-defineProps<Props>()
-interface Props {
+defineProps<ShowcaseProps>()
+export interface ShowcaseProps {
   data: {
     to: string
     theme: 'orange' | 'blue' | 'purple' | 'green'

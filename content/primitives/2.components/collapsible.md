@@ -4,6 +4,9 @@ description: An interactive component which expands/collapses a panel.
 datePublished: 2022-12-07
 dateModified: 2022-12-07
 layout: primitive
+component: OkuCollapsible
+readingTime: 3
+version: 0.4.0
 ---
 
 
