@@ -15,7 +15,8 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'Inter fallback', ...defaultTheme.fontFamily.sans],
+        // sans: ['Inter', 'Inter fallback', ...defaultTheme.fontFamily.sans],
+        sans: ['"Nunito Sans"', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         blackA: {

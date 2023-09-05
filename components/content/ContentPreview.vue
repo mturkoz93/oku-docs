@@ -31,7 +31,7 @@ const pathParts = computed(() => props.src.split('/').slice(1))
 onMounted(async () => {
   try {
     dynamicComponent.value = defineAsyncComponent(() => {
-      return import(`./../primitives/${pathParts.value[1]}/${pathParts.value[2]}`)
+      return import(`@/components/primitives/${pathParts.value[1]}/${pathParts.value[2].split('.')[0]}.vue`)
     })
   }
   catch (error) {

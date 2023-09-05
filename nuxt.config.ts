@@ -44,6 +44,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Inter: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+      Nutino: [100, 200, 300, 400, 500, 600, 700, 800, 900],
     },
   },
 
@@ -103,9 +104,7 @@ export default defineNuxtConfig({
   },
 
   content: {
-    documentDriven: {
-      host: 'https://oku-ui.com',
-    },
+    documentDriven: true,
     highlight: {
       theme: {
         default: 'vitesse-light',
