@@ -10,21 +10,21 @@ import { OkuToolbar, OkuToolbarButton, OkuToolbarLink, OkuToolbarSeparator, OkuT
     >
       <OkuToolbarToggleGroup type="multiple" aria-label="Text formatting">
         <OkuToolbarToggleItem
-          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900 dark:data-[state=on]:bg-oku-600 dark:data-[state=on]:text-oku-200"
+          class="flex-shrink-0 flex-grow-0 basis-auto hover:bg-oku-300/20 text-codGray-700 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900 dark:data-[state=on]:bg-oku-400 dark:data-[state=on]:text-oku-100"
           value="bold"
           aria-label="Bold"
         >
           <span class="i-ic-baseline-format-bold w-4 h-4 text-codGray-600 dark:text-white" />
         </OkuToolbarToggleItem>
         <OkuToolbarToggleItem
-          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900"
+          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900 dark:data-[state=on]:bg-oku-400 dark:data-[state=on]:text-oku-100"
           value="italic"
           aria-label="Italic"
         >
           <span class="i-ic-baseline-format-italic w-4 h-4 text-codGray-600 dark:text-white" />
         </OkuToolbarToggleItem>
         <OkuToolbarToggleItem
-          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900"
+          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900 dark:data-[state=on]:bg-oku-400 dark:data-[state=on]:text-oku-100"
           value="strikethrough"
           aria-label="Strike through"
         >
@@ -34,21 +34,21 @@ import { OkuToolbar, OkuToolbarButton, OkuToolbarLink, OkuToolbarSeparator, OkuT
       <OkuToolbarSeparator class="w-[1px] bg-gray-300 mx-[10px]" />
       <OkuToolbarToggleGroup type="single" default-value="center" aria-label="Text alignment">
         <OkuToolbarToggleItem
-          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 hover:bg-oku-50 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900"
+          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 hover:bg-oku-50 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900 dark:data-[state=on]:bg-oku-400 dark:data-[state=on]:text-oku-100"
           value="left"
           aria-label="Left aligned"
         >
-          <span class="i-ic-baseline-format-align-left w-4 h-4 text-codGray-600 dark:text-grayA-400" />
+          <span class="i-ic-baseline-format-align-left w-4 h-4 text-codGray-600 dark:text-white" />
         </OkuToolbarToggleItem>
         <OkuToolbarToggleItem
-          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 hover:bg-oku-50 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center  ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900"
+          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 hover:bg-oku-50 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center  ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900 dark:data-[state=on]:bg-oku-400 dark:data-[state=on]:text-oku-100"
           value="center"
           aria-label="Center aligned"
         >
           <span class="i-ic-baseline-format-align-center w-4 h-4 text-codGray-600 dark:text-white" />
         </OkuToolbarToggleItem>
         <OkuToolbarToggleItem
-          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 hover:bg-oku-50 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900"
+          class="flex-shrink-0 flex-grow-0 basis-auto text-codGray-700 hover:bg-oku-50 h-[25px] px-[5px] rounded inline-flex text-[13px] leading-none items-center justify-center ml-0.5 outline-none hover:bg-violet3 hover:text-violet11 focus:relative focus:shadow-[0_0_0_2px] focus:shadow-violet7 first:ml-0 data-[state=on]:bg-oku-200 data-[state=on]:text-oku-900 dark:data-[state=on]:bg-oku-400 dark:data-[state=on]:text-oku-100"
           value="right"
           aria-label="Right aligned"
         >
