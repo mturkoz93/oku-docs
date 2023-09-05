@@ -3,7 +3,7 @@ import { OkuTabs, OkuTabsContent, OkuTabsList, OkuTabsTrigger } from '@oku-ui/ta
 
 interface Props {
   src: string
-  off: string
+  off?: string
 }
 const props = withDefaults(defineProps<Props>(), {
   off: '',
