@@ -14,6 +14,7 @@ useSchemaOrg([
 </script>
 
 <template>
+  <OrgNavbar />
   <AtomSection>
     <AtomPageSection>
       <AtomPageProseHeader :title="page.title" :date-published="page.datePublished" />
